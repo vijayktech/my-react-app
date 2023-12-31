@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 // import Cars from './Cars';
 // import Complifecycle from './comp-life-cycle-demo';
@@ -7,13 +7,16 @@ import './App.css';
 // import GoalConditionals from './Conditionals/condi-if-ternary-demo';
 // import FootballTeams from './Conditionals/logincal-operator-demo';
 // import GarageDemo from './Lists/lists-demo';
-import FavoriteColor from './Hooks/hook-state-demo';
+// import FavoriteColor from './Hooks/hook-state-demo';
+// import Timer from './Hooks/useEffect-demo';
+import TimerCleanUp from './Hooks/useEffect-cleanup-demo';
 
 function App() {
-  
-  return (
-    <FavoriteColor></FavoriteColor>
-  );
+ 
+   return(
+      <TimerCleanUp />   
+      );
+   
 }
 
 
