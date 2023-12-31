@@ -18,13 +18,13 @@ function Footbal(){
 
     return(
         <>
-            <h3> Call event Hanlders without args </h3>
+            <h3> Call event Handlers without args </h3>
             <button onClick={passBal}> Pass Ball </button>
             
-            <h3> Pass args to event Hanlders </h3>
+            <h3> Pass args to event Handlers </h3>
             <button onClick={() => shoot("Goal made !!")}> Take a shot  </button>
 
-            <h3> Send event Object to Event Hanlders </h3>
+            <h3> Send event Object to Event Handlers </h3>
             <button onClick={(event) => winGame("Goal made !!", event)}> Winning </button>
         </>
     );
